@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Home from './Pages/Home/Home'
+import Nav from './Navigation/Nav'
 
 const App = () => {
   return (
-  <Home/>
-
+    <div>
+      <Nav/>
+    </div>
   )
 }
 
